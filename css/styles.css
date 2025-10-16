@@ -4,7 +4,7 @@
 }
 
 body {
-  height: 580vh;
+
   width: 100%;
 }
 
@@ -568,7 +568,7 @@ a {
 
 .logos img:hover {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
-  transform: scale(1.1);
+  transform: scale(1.2);
   filter: grayscale(0%);
 }
 
@@ -595,9 +595,11 @@ a {
 
   color: rgb(94, 98, 130);
 }
-.newslettre-contenu{
+
+.newslettre-contenu {
   z-index: 2;
 }
+
 .submiting {
   position: absolute;
   display: flex;
@@ -606,7 +608,8 @@ a {
   gap: 30px;
   vertical-align: top;
 }
-.email{
+
+.email {
   padding-top: 35px;
   padding-bottom: 35px;
   padding-left: 20px;
@@ -619,16 +622,18 @@ a {
   transition: ease-in-out 0.15s;
   cursor: pointer;
 }
-.email:hover{
+
+.email:hover {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
-transform: scale(1.05);
+  transform: scale(1.05);
 }
-.Subscribe{
+
+.Subscribe {
   font-size: 17pt;
   font-family: "open sans";
   font-weight: 600;
   color: white;
-  background-image: linear-gradient(to bottom ,#FF946D,#FF7D68);
+  background-image: linear-gradient(to bottom, #FF946D, #FF7D68);
   padding: 29px 50%;
   display: flex;
   justify-content: center;
@@ -638,31 +643,37 @@ transform: scale(1.05);
   transition: ease-in-out 0.15s;
   cursor: pointer;
 }
-.Subscribe:hover{
+
+.Subscribe:hover {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
-transform: scale(1.05);
-opacity: 0.7;
+  transform: scale(1.05);
+  opacity: 0.7;
 }
-.Subscribe:active{
+
+.Subscribe:active {
   opacity: 0.5;
 }
-.send{
+
+.send {
   position: absolute;
   right: 22px;
   top: 100px;
 }
-.newslettre-decoration img{
+
+.newslettre-decoration img {
   position: absolute;
   left: 1730px;
   top: 600px;
   transform: scale(1.1);
 }
-.footer{
+
+.footer {
   display: flex;
   flex-direction: column;
   gap: 100px;
 }
-.footer-column-1{
+
+.footer-column-1 {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -670,46 +681,53 @@ opacity: 0.7;
   vertical-align: top;
   gap: 80px;
 }
-.footer-links{
+
+.footer-links {
   display: flex;
   flex-direction: column;
   padding-top: 20px;
   transition: ease-in-out 0.15s;
 }
-.footer-links a:hover{
+
+.footer-links a:hover {
   transform: scale(1.1);
 }
-.footer-text-1 a{
+
+.footer-text-1 a {
   font-family: "poppins";
   font-size: 44pt;
   font-weight: 500;
   color: #181E4B;
 }
 
-.footer-text-1{
-padding-bottom: 30px;
+.footer-text-1 {
+  padding-bottom: 30px;
 }
-.footer-text-2{
+
+.footer-text-2 {
   font-family: "poppins";
   font-size: 13pt;
   font-weight: 500;
   color: #5E6282;
 }
-.footer-text-3{
+
+.footer-text-3 {
   font-family: "poppins";
   font-size: 21pt;
   font-weight: bold;
   color: black;
   padding-top: 100px;
-  
+
 }
-.footer-text-4{
+
+.footer-text-4 {
   font-family: "poppins";
   font-size: 18pt;
   font-weight: 500;
   color: #5E6282;
 }
-.footer-links a{
+
+.footer-links a {
   text-decoration: none;
   font-family: "poppins";
   font-size: 18pt;
@@ -717,22 +735,95 @@ padding-bottom: 30px;
   color: #5E6282;
   padding-top: 20px;
 }
-.discover{
+
+.discover {
   display: flex;
   flex-direction: column;
   gap: 8px;
   padding-top: 80px;
   transition: ease-in-out 0.15s;
 }
-.discover img{
+
+.discover img {
   cursor: pointer;
 }
-.discover img:hover{
+
+.discover img:hover {
   transform: scale(1.1);
 }
-.copyrights{
+
+.copyrights {
   display: flex;
   padding-left: 855px;
+  padding-bottom: 50px;
+}
+
+/*Destinations page style*/
+.destination {
+  display: flex;
+  align-items: center;
+  padding-top: 250px;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.destination-available {
+  display: grid;
+  grid-template-columns: 315px 315px 315px;
+  grid-template-rows: 457px 457px 457px;
+  column-gap: 50px;
+  row-gap: 60px;
+}
+
+.destination-information img {
+  border-radius: 24px;
+  cursor: pointer;
+  transition: ease-in-out 0.15s;
+}
+
+.destination-information img:hover {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+  transform: scale(1.1);
+}
+
+.Upcoming-packages {
+  display: flex;
+  align-items: center;
+  padding-top: 200px;
+  flex-direction: column;
+  gap: 150px;
+}
+
+.tour-package {
+  display: flex;
+  flex-direction: row;
+  gap: 150px;
+}
+
+.About {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 100px;
+  gap: 200px;
+}
+.about{
+  display: flex;
+  padding-left: 440px;
+  padding-top: 300px;
+}
+.about-text-1{
+  display: flex;
+  flex-direction: column;
+}
+.About img{
+  border-radius: 24px;
+  cursor: pointer;
+  transition: ease-in-out 0.15s;
+}
+.About img:hover{
+  transform: scale(1.2);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
 }
 @media only screen and (max-width : 1600px) {
   header {
