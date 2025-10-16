@@ -4,7 +4,7 @@
 }
 
 body {
-  height: 300vh;
+  height: 580vh;
   width: 100%;
 }
 
@@ -352,24 +352,17 @@ a {
   display: flex;
   flex-direction: row;
   padding-top: 70px;
-  gap: 60px;
+  gap: 80px;
 }
 
 .top-selling img {
-
   border-radius: 24px;
+  cursor: pointer;
 }
 
 .destination {
   position: relative;
-  cursor: pointer;
-  transition: ease-in-out 0.25s;
-}
-
-.destination :hover {
-  transform: scale(1.1);
-  opacity: 1;
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+  transition: 0.15s;
 }
 
 .img-text {
@@ -378,6 +371,13 @@ a {
   right: 0;
   top: 1px;
   opacity: 0;
+  transition: 0.10s;
+}
+
+.img-text:hover {
+  transform: scale(1.1);
+  opacity: 1;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
 }
 
 .top-selling-text {
@@ -400,6 +400,340 @@ a {
   gap: 20px;
 }
 
+.booking {
+  position: relative;
+  padding: 200px 22%;
+}
+
+.booking-tips-box {
+  display: flex;
+  flex-direction: column;
+  padding-top: 45px;
+  gap: 20px;
+}
+
+.booking-tips {
+  display: flex;
+  vertical-align: top;
+  gap: 20px;
+  border-radius: 10px;
+  width: 500px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  background-color: white;
+}
+
+.booking-tips img {
+  width: 70px;
+  border-radius: 23.5px;
+}
+
+.booking-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+#london {
+  position: absolute;
+  top: 300px;
+  left: 1250px;
+  z-index: 1;
+  cursor: pointer;
+  border-radius: 24px;
+  transition: 0.15s;
+}
+
+#london:hover {
+  z-index: 3;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+  transform: scale(1.2);
+}
+
+#full-europe {
+  position: absolute;
+  top: 375px;
+  left: 1350px;
+  cursor: pointer;
+  z-index: 2;
+  border-radius: 24px;
+  transition: 0.15s;
+}
+
+#full-europe:hover {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+  transform: scale(1.1);
+}
+
+#blue-shadow {
+  position: absolute;
+  top: 100px;
+  left: 1150px;
+  z-index: -1;
+}
+
+.testimonials {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+
+}
+
+.testimonials-text {
+  display: flex;
+  flex-direction: column;
+  padding-left: 250px;
+}
+
+.testemon {
+  position: relative;
+  width: 560px;
+  height: 245px;
+  border-radius: 24px;
+  transition: 0.15s;
+}
+
+.testemon:hover {
+  transform: scale(1.1);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.testemon-text {
+  flex-direction: column;
+  display: flex;
+  padding-left: 38px;
+  padding-top: 30px;
+  gap: 20px;
+}
+
+.testemon img {
+  position: absolute;
+  border-radius: 50px;
+  top: -30px;
+  left: -40px;
+}
+
+.up-down-scroll {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  transition: ease-in-out 0.15s;
+}
+
+.up-direct,
+.down-direct {
+  color: rgb(188, 183, 194);
+  transform: scale(2);
+  border-radius: 24px;
+  cursor: pointer;
+}
+
+.down-direct:hover {
+  transform: scale(2.5);
+}
+
+.up-direct:hover {
+  transform: scale(2.5);
+}
+
+.up-direct:active,
+.down-direct:active {
+  color: rgb(30, 29, 76);
+}
+
+.logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 150px;
+  padding-top: 200px;
+  vertical-align: top;
+
+}
+
+.logos img {
+  transform: scale(1.1);
+  padding-top: 20px;
+  padding-left: 16px;
+  padding-right: 16px;
+  transition: ease-in-out 0.15s;
+  border-radius: 14px;
+  cursor: pointer;
+  filter: grayscale(100%);
+}
+
+.logos img:hover {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+  transform: scale(1.1);
+  filter: grayscale(0%);
+}
+
+.newslettre {
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
+  position: relative;
+  padding-bottom: 300px;
+}
+
+.newslettre img {
+  padding-right: 80px;
+}
+
+.newslettre-text {
+  position: absolute;
+  font-family: "poppins";
+  font-weight: 600;
+  font-size: 35pt;
+  text-align: center;
+  left: 340px;
+  top: 220px;
+
+  color: rgb(94, 98, 130);
+}
+.newslettre-contenu{
+  z-index: 2;
+}
+.submiting {
+  position: absolute;
+  display: flex;
+  top: 500px;
+  left: 500px;
+  gap: 30px;
+  vertical-align: top;
+}
+.email{
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-left: 20px;
+  padding-right: 350px;
+  font-size: 16pt;
+  font-family: "montserrat";
+  color: #31384e;
+  border-radius: 15px;
+  border: none;
+  transition: ease-in-out 0.15s;
+  cursor: pointer;
+}
+.email:hover{
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+transform: scale(1.05);
+}
+.Subscribe{
+  font-size: 17pt;
+  font-family: "open sans";
+  font-weight: 600;
+  color: white;
+  background-image: linear-gradient(to bottom ,#FF946D,#FF7D68);
+  padding: 29px 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 15px;
+  transition: ease-in-out 0.15s;
+  cursor: pointer;
+}
+.Subscribe:hover{
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+transform: scale(1.05);
+opacity: 0.7;
+}
+.Subscribe:active{
+  opacity: 0.5;
+}
+.send{
+  position: absolute;
+  right: 22px;
+  top: 100px;
+}
+.newslettre-decoration img{
+  position: absolute;
+  left: 1730px;
+  top: 600px;
+  transform: scale(1.1);
+}
+.footer{
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+.footer-column-1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  vertical-align: top;
+  gap: 80px;
+}
+.footer-links{
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  transition: ease-in-out 0.15s;
+}
+.footer-links a:hover{
+  transform: scale(1.1);
+}
+.footer-text-1 a{
+  font-family: "poppins";
+  font-size: 44pt;
+  font-weight: 500;
+  color: #181E4B;
+}
+
+.footer-text-1{
+padding-bottom: 30px;
+}
+.footer-text-2{
+  font-family: "poppins";
+  font-size: 13pt;
+  font-weight: 500;
+  color: #5E6282;
+}
+.footer-text-3{
+  font-family: "poppins";
+  font-size: 21pt;
+  font-weight: bold;
+  color: black;
+  padding-top: 100px;
+  
+}
+.footer-text-4{
+  font-family: "poppins";
+  font-size: 18pt;
+  font-weight: 500;
+  color: #5E6282;
+}
+.footer-links a{
+  text-decoration: none;
+  font-family: "poppins";
+  font-size: 18pt;
+  font-weight: 500;
+  color: #5E6282;
+  padding-top: 20px;
+}
+.discover{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-top: 80px;
+  transition: ease-in-out 0.15s;
+}
+.discover img{
+  cursor: pointer;
+}
+.discover img:hover{
+  transform: scale(1.1);
+}
+.copyrights{
+  display: flex;
+  padding-left: 855px;
+}
 @media only screen and (max-width : 1600px) {
   header {
     justify-content: space-between;
@@ -417,7 +751,5 @@ a {
     cursor: pointer;
     display: flex;
   }
-
-
 
 }
