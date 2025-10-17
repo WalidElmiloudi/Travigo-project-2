@@ -368,9 +368,10 @@ a {
   position: absolute;
   left: 1px;
   right: 0;
-  top: 1px;
+  top: 252px;
   opacity: 0;
-  transition: 0.10s;
+  transform: scale(1.05);
+  transition: ease-in-out 0.15s;
 }
 
 .img-text:hover {
