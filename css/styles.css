@@ -800,6 +800,7 @@ a {
   gap: 150px;
 }
 
+/*About Us Page Style*/
 .About {
   display: flex;
   flex-direction: row;
@@ -807,24 +808,131 @@ a {
   padding-top: 100px;
   gap: 200px;
 }
-.about{
+
+.about {
   display: flex;
   padding-left: 440px;
   padding-top: 300px;
 }
-.about-text-1{
+
+.about-text-1 {
   display: flex;
   flex-direction: column;
 }
-.About img{
+
+.About img {
   border-radius: 24px;
   cursor: pointer;
   transition: ease-in-out 0.15s;
 }
-.About img:hover{
+
+.About img:hover {
   transform: scale(1.2);
   box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
 }
+
+.About-2 {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 450px;
+  padding-bottom: 100px;
+}
+
+.About-2 img {
+  transform: scale(1.1);
+  cursor: pointer;
+  border-radius: 24px;
+  transition: ease-in-out 0.15s;
+}
+
+.About-2 img:hover {
+  transform: scale(1.2);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+}
+
+/*Contact Us Page Styles*/
+
+.contact-text {
+  width: 500px;
+  height: 200px;
+  background-color: white;
+  position: absolute;
+  top: 400px;
+  left: 300px;
+  padding: 50px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 24px;
+  cursor: pointer;
+  transition: ease-in-out 0.15s;
+}
+
+.contact-text:hover {
+  transform: scale(1.1);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+}
+
+.contact-forum {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(226, 226, 226, 0.7);
+  position: absolute;
+  top: 270px;
+  left: 1150px;
+  padding-top: 80px;
+  padding-left: 80px;
+  padding-bottom: 80px;
+  padding-right: 80px;
+  border-radius: 15px;
+  transition: ease-in-out 0.15s;
+}
+
+.contact-forum input {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 60px;
+  border-radius: 12px;
+  border: none;
+  margin-bottom: 40px;
+  font-family: "poppins";
+  font-size: 15pt;
+  text-align: left;
+  transition: ease-in-out 0.15s;
+  cursor: pointer;
+}
+
+.contact-forum input:hover {
+  transform: scale(1.1);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+}
+
+.contact-forum button {
+  background-color: #7070ED;
+  font-family: "poppins";
+  font-size: 15pt;
+  font-weight: 500;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 14px;
+  transition: ease-in-out 0.15s;
+  cursor: pointer;
+}
+
+.contact-forum button:hover {
+  transform: scale(1.1);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+  opacity: 0.7;
+}
+
+.contact-forum button:active {
+  opacity: 0.5;
+}
+
 @media only screen and (max-width : 1600px) {
   header {
     justify-content: space-between;
