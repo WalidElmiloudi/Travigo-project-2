@@ -4,7 +4,6 @@
 }
 
 body {
-
   width: 100%;
 }
 
@@ -931,6 +930,230 @@ a {
 
 .contact-forum button:active {
   opacity: 0.5;
+}
+
+/*Login Page Styles*/
+
+.login {
+  position: absolute;
+  background-color: rgba(226, 226, 226, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  top: 120px;
+  left: 650px;
+  width: 587px;
+  height: 700px;
+  border-radius: 15px;
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+
+.login button {
+  width: 136px;
+  height: 48px;
+  font-size: 18pt;
+  background-color: #40CA7A;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: ease-in-out 0.15s;
+}
+
+.login button:hover {
+  transform: scale(1.1);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+  opacity: 0.7;
+}
+
+.login button:active {
+  opacity: 0.5;
+}
+
+.login-forum {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.login-forum input {
+  width: 363px;
+  height: 60px;
+  border-radius: 8px;
+  border: none;
+  transition: ease-in-out 0.15s;
+  cursor: pointer;
+}
+
+.login-forum input:hover {
+  transform: scale(1.1);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+}
+
+.login-forum input::placeholder {
+  font-size: 18pt;
+  font-weight: 400;
+  padding-left: 10px;
+  padding-top: 10px;
+  color: #6D6D6D;
+}
+
+.other-login {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.other-login-methodes {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  width: 301px;
+  height: 63px;
+  border-radius: 10px;
+  padding-left: 30px;
+  cursor: pointer;
+  transition: ease-in-out 0.15s;
+}
+
+.other-login-methodes:hover {
+  transform: scale(1.1);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+}
+
+.other-login-text {
+  font-family: "poppins";
+  font-size: 15pt;
+  font-weight: 400;
+}
+
+.lines {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+hr {
+  width: 191px;
+  height: 1px;
+  border: none;
+  background-color: black;
+}
+
+/*Sign Up Page Styles*/
+.Sign-up {
+  position: absolute;
+  background-color: rgba(226, 226, 226, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  top: 120px;
+  left: 650px;
+  width: 587px;
+  height: 750px;
+  border-radius: 15px;
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+
+.sign-up-forum {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+}
+
+.Sign-up button {
+  width: 136px;
+  height: 48px;
+  font-size: 18pt;
+  font-weight: 500;
+  background-color: #4077CA;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: ease-in-out 0.15s;
+}
+
+.Sign-up button:hover {
+  transform: scale(1.1);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+  opacity: 0.7;
+}
+
+.Sign-up button:active {
+  opacity: 0.5;
+}
+
+.sign-up-forum input {
+  width: 308.45px;
+  height: 50.13px;
+  border-radius: 8px;
+  border: none;
+  transition: ease-in-out 0.15s;
+  cursor: pointer;
+}
+
+.sign-up-forum input:hover {
+  transform: scale(1.1);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+}
+
+.sign-up-forum input::placeholder {
+  font-size: 16pt;
+  padding-left: 10px;
+  font-weight: 500;
+  align-items: center;
+}
+
+.Full-name {
+  display: flex;
+  flex-direction: row;
+  gap: 15.93px;
+}
+
+.Full-name input {
+  width: 146.26px;
+  height: 50.13px;
+}
+
+.other-sign-up {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.other-sign-up-methodes {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  background-color: white;
+  width: 202.52px;
+  height: 35.66px;
+  border-radius: 10px;
+  padding-left: 10px;
+  cursor: pointer;
+  transition: ease-in-out 0.15s;
+  gap: 5px;
+}
+
+.other-sign-up-methodes:hover {
+  transform: scale(1.1);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+}
+
+.other-sign-up-methodes img {
+  transform: scale(0.8);
+}
+
+.other-sign-up-text {
+  font-family: "poppins";
+  font-size: 10pt;
+  font-weight: 400;
 }
 
 @media only screen and (max-width : 1600px) {
